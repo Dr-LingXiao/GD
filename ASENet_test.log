@@ -1,0 +1,2 @@
+2022-03-19 19:25:12,470 - __main__ - INFO -   + Number of params: 11700289
+2022-03-19 19:25:12,473 - __main__ - INFO - => loading checkpoint 'runs/ASEN/model_best.pth.tar'

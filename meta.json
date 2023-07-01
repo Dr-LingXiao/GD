@@ -1,0 +1,65 @@
+{
+	"FashionAI":{
+		"ATTRIBUTES":[
+			"skirt_length",
+			"sleeve_length",
+			"coat_length",
+			"pant_length",
+			"collar_design",
+			"lapel_design",
+			"neckline_design",
+			"neck_design"
+		],
+		"ATTRIBUTES_NUM":{
+			"skirt_length":6,
+			"sleeve_length":9,
+			"coat_length":8,
+			"pant_length":6,
+			"collar_design":5,
+			"lapel_design":5,
+			"neckline_design":10,
+			"neck_design":5
+		}
+	},
+	"DARN":{
+		"ATTRIBUTES":[
+			"clothes category",
+			"clothes button",
+			"clothes color",
+			"clothes length",
+			"clothes pattern",
+			"clothes shape",
+			"collar shape",
+			"sleeve length",
+			"sleeve shape"
+		]
+		,
+		"ATTRIBUTES_NUM":{
+			"clothes category":20,
+			"clothes button":13,
+			"clothes color":55,
+			"clothes length":7,
+			"clothes pattern":28,
+			"clothes shape":11,
+			"collar shape":26,
+			"sleeve length":8,
+			"sleeve shape":17
+		}
+	},
+	"DeepFashion":{
+		"ATTRIBUTES":[
+			"texture-related",
+			"fabric-related",
+			"shape-related",
+			"part-related",
+			"style-related"
+		],
+		"ATTRIBUTES_NUM":{
+			"texture-related":156,
+			"fabric-related":218,
+			"shape-related":180,
+			"part-related":216,
+			"style-related":230
+		}
+	}
+}

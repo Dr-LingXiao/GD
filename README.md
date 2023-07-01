@@ -52,18 +52,12 @@ You can simply train the model on FashionAI dataset(default)
 python main.py
 ```
 
-there are also optional arguments for dataset, initial learning rate, batch size and so on. Check them by 
-
-```sh
-python main.py --help
-```
-
 ## Testing
 
 As training terminates, two snapshots are saved for testing. One is the model that has the highest performance on validation set and the other is the one of the latest epoch. You can load any of them and test on the test set.
 
 ```sh
-python main.py --test [--dataset xx] --resume runs/{your_exp_name}/xx.pth.tar
+python main.py --test --resume runs/{your_exp_name}/xx.pth.tar
 ```
 
 ## Citing

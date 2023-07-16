@@ -39,9 +39,6 @@ class Tripletnet(nn.Module):
 
             sim_a111 = torch.sum(embedded_x111 * embedded_y, dim=1)
             sim_b111 = torch.sum(embedded_x111 * embedded_z, dim=1)
-
-            # sim_a1111 = torch.sum(embedded_x1111 * embedded_y, dim=1)
-            # sim_b1111 = torch.sum(embedded_x1111 * embedded_z, dim=1)
             sim_a1111 = torch.sum(embedded_x * embedded_y, dim=1)
             sim_b1111 = torch.sum(embedded_x * embedded_x11, dim=1)
 

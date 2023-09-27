@@ -65,10 +65,14 @@ python main.py --test --resume runs/{your_exp_name}/xx.pth.tar
 If it's of any help to your research, consider citing our work:
 
 ```latex
+
+Xiao, L., Zhang, X. and Yamasaki, T., 2023, August. Toward a More Robust Fine-Grained Fashion Retrieval. In 2023 IEEE 6th International Conference on Multimedia Information Processing and Retrieval (MIPR) (pp. 1-4). IEEE.
+
 @inproceedings{Ling_MIPR2023,
   title={Toward a More Robust Fine-grained Fashion Retrieval},
-  author={Ling, Xiao and Xiaofeng, Zhang and Toshihiko Yamasaki},
+  author={Ling Xiao and Xiaofeng Zhang and Toshihiko Yamasaki},
   booktitle={IEEE International Conference on Multimedia Information Processing and Retrieval(MIPR)},
+  pages = {1-4},
   year = {2023}
 }
 ```
